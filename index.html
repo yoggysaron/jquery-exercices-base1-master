@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet"  href="style.css">
     <title>Jquery Exercice 1</title>
   </head>
   <body>
@@ -16,10 +16,20 @@
     <button id="bouton2" name="bouton">Montrer</button>
 
 
-  <script>
+<script src="jquery.js"> </script>
+
+<script>
+
+$("#bouton1").click(function(){
+  $("#texte").hide();
+});
+$("#bouton2").click(function(){
+  $("#texte").show();
+});
 
 
-  </script>
+ </script>
+
 
   </body>
 </html>
